@@ -1,0 +1,30 @@
+<!doctype html>
+<head>
+    <title>whac a mole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Score</h2>
+    <h2 id="score">0</h2>
+
+    <h2>Time Left</h2>
+    <h2 id="time-left">0</h2>
+    <div>
+    <input type="button" id="submit" value="Start" onCLick="startMole()"/>
+    <input type="button" id="Stop" value="Stop" onCLick="stopMole()"/>
+    <input type="button" id="Reset" value="Reset" onCLick="resetMole()"/>
+    </div>
+    <div class="grid">
+        <div class="square" id="1"></div>
+        <div class="square" id="2"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="6"></div>
+        <div class="square" id="7"></div>
+        <div class="square" id="8"></div>
+        <div class="square" id="9"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
